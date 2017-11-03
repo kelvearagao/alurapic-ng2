@@ -7,6 +7,7 @@ import { NgModule } from "@angular/core";
 import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { HttpModule } from '@angular/http';
+import { FormsModule, ReactiveFormsModule  } from '@angular/forms';
 import 'rxjs/add/operator/map';
  
 @NgModule({
@@ -15,7 +16,9 @@ import 'rxjs/add/operator/map';
         FotoModule, 
         HttpModule, 
         PainelModule, 
-        routing 
+        routing,
+        FormsModule,
+        ReactiveFormsModule 
     ],
     declarations: [ AppComponent, CadastroComponent, ListagemComponent ],
     bootstrap: [ AppComponent ]
