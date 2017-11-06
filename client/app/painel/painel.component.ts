@@ -21,4 +21,8 @@ export class PainelComponent implements OnInit {
             : this.titulo;
     }
 
+    remove() {
+        
+    }
+
 }
