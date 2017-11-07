@@ -1,3 +1,5 @@
+import { ModalModule } from './modal/modal.module';
+import { BotaoModule } from './botao/botao.module';
 import { routing } from './app.route';
 import { ListagemComponent } from './listagem/listagem.component';
 import { CadastroComponent } from './cadastro/cadastro.componente';
@@ -18,7 +20,9 @@ import 'rxjs/add/operator/map';
         PainelModule, 
         routing,
         FormsModule,
-        ReactiveFormsModule 
+        ReactiveFormsModule,
+        BotaoModule,
+        ModalModule
     ],
     declarations: [ AppComponent, CadastroComponent, ListagemComponent ],
     bootstrap: [ AppComponent ]
